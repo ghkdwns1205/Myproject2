@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+/* .write_a{ */
+/* 	color:red; */
+/* } */
+body{ font-size:16px;
+    color:#6f6f6f}
+ul, ol, li{list-style-type:none}
+.wrap{
+    width: 100%;
+}
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url(../img/backgound1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+/* 기본 초기화 */
+
+/* headertop start */
+header .inner .headertop{
+    float: right;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    
+}
+header .inner .headertop input{
+    border: none;
+    background-color: rgb(245, 209, 229);
+    padding: 5px;
+}
+/* banner header start*/
+header .banner{
+    clear: both;
+    border: 1px solid rgb(212, 203, 221);
+   
+    padding: 20px;
+    padding-left: 40px;
+}
+header .banner h1 {
+    
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-style: italic;
+    
+}
+header .banner .burin{
+    display: inline-block;
+    font-size: 70px;
+    letter-spacing: 10px;
+    font-style: italic;
+}
+header .banner h3{
+    font-size: 30px;
+}
+
+/* login section */
+
+.sec1 .inner .login div{
+    display: inline-block;
+    border-bottom: 1px solid rgb(212, 203, 221);
+    font-size: 30px;
+    
+    
+}
+
+.sec1 .inner div input{
+    border: none;
+    background-color: rgb(253, 236, 251);
+    
+}
+
+.sec1 .inner .login{
+    margin: 10% auto 5% auto;
+    text-align: center;
+    
+}
+.sec1 .inner .login .logid{
+    width: 400px;
+    height: 35px;
+    
+
+}
+.sec1 .inner .login .logpass{
+width: 400px;
+height: 35px;
+}
+.sec1 .inner .loginid{
+    margin-bottom: 40px;
+    
+}
+
+.sec1 .inner .button{
+    text-align: center;
+    
+}
+.sec1 .inner .button input{
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(245, 209, 229);
+}
+
+/* login -> section 2 -> ul li */
+
+.sec2 .inner ul{
+    text-align: center;
+}
+
+.sec2 .inner>ul>li{
+    width: calc((100% / 7) + 7px );
+    
+    float: left;
+}
+
+.sec2 .inner ul .serchid{
+    padding-left: 334px;
+    padding-right: 15px
+}
+.sec2 .inner ul{
+    font-size: 16px;
+    line-height: 30px;
+}
+.sec2 .inner ul .ulfont{
+    display: none;
+    
+}
+
+
+/* join section start */
+
+.join .inner fieldset{
+    border: none;
+    border-top: 1px solid rgb(212, 203, 221); ;
+}
+.join .inner fieldset legend{
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+/* join  id */
+
+.join .inner input{
+    margin-bottom: 20px;
+}
+.join .inner .nid{
+    margin-left: 15px ;
+    font-size: 25px;
+    text-align: center;
+}
+.join .inner .nid input{
+    width: 300px;   
+    height: 25px;
+    margin-right: 20px;
+}
+.join .inner .nid button{
+    width: 80px;
+    height: 25px;
+}
+
+/* join pass */
+.join .inner .npass{
+    font-size: 25px;
+    text-align: center;
+}
+.join .inner .npass input{
+    margin-right: 30px;
+    width: 300px;
+    height: 25px;
+}
+
+.join .inner .npasscheck{
+    font-size: 25px;
+    text-align: center;
+
+}
+.join .inner .npasscheck input{
+    width: 300px;
+    height: 25px;
+    margin-right: 85px;
+}
+/* join name */
+.join .inner .name{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 55px;
+}
+
+.join .inner .name input{
+    width: 300px;
+    height: 25px;
+    margin-right: 30px;
+}
+
+    /* join email */
+
+.join .inner .email{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.join .inner .email input{
+    width: 300px;
+    height: 25px;
+}
+  /* join gender */
+.join .inner .gender{
+    font-size: 25px;
+    text-align: center;
+}
+.join .inner .gender input{
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
+
+.join .inner .joinsub{
+    text-align: center;
+}
+.join .inner .joinsub input{
+    width: 120px;
+    height: 35px;
+    margin: 0 20px;
+   
+}
+
+/* main start */
+
+/* nav menubar start */
+.menubar .inner ul{
+    
+margin-top: 10px;
+
+}
+
+
+.menubar .inner ul li{
+    float: left;
+    width: calc((100% / 5) - 1px);
+    text-align: center;
+    background-color: rgb(245, 209, 229);
+    padding: 4px 0;
+    border-right: 1px solid rgb(212, 203, 221);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.menubar .inner ul li:last-child{
+    border-right: none ;
+    padding-right: 1px;
+}
+
+/* main section start */
+.mainsection .inner .maincont{
+    clear: both;
+    width: 100%;
+    height: 900px;
+    border: 1px solid rgb(212, 203, 221);
+    
+}
+
+.mainsection .inner .maincont .slider img{
+	width: 100%;
+}
+
+/* freeboard start */
+.mainsection .inner .freeboardsection{
+    clear: both;
+    width: 100%;
+    height: 900px;
+    border: 1px solid rgb(212, 203, 221);
+    
+}
+.mainsection .inner .freeboardsection .boarddiv{
+	height: calc(100% / 11);
+	border-bottom: 1px solid rgb(212, 203, 221);
+}
+.mainsection .inner .freeboardsection .boarddiv:last-child{
+	
+	}
+.mainsection .inner .freeboardsection .boarddiv div{
+	float:left;
+	line-height:80px;
+	
+}	
+.mainsection .inner .freeboardsection .boarddiv .content{
+	width:60%;
+	text-align:center;
+}
+.mainsection .inner .freeboardsection .boarddiv .nickname{
+	width:15%;
+	text-align:center;
+	}
+.mainsection .inner .freeboardsection .boarddiv .regdate{
+	width:15%;
+	text-align:center;
+	}
+.mainsection .inner .freeboardsection .boarddiv .hits{
+	width:5%;
+	text-align:center;
+	}
+.mainsection .inner .freeboardsection .boarddiv .like{
+	width:5%;
+	text-align:center;	
+	}
+.mainsection .inner .freeboardsection .page{
+	text-align:center;
+	
+}
+.mainsection .inner .freeboardsection .page .prev{
+	float:left;
+	}
+	.mainsection .inner .freeboardsection .page .pnum{
+	float:left;
+	}
+	.mainsection .inner .freeboardsection .page .next{
+	float:left;
+	}
+/* writer start */
+
+.writer{
+	
+	position: fixed;
+	top: 50%;
+	right: 8%;
+	vertical-align: middle;
+	
+}
+	
+	.writer a span{
+		padding: 5px;
+		background-color:rgb(241, 144, 209);
+		border:none;
+	}
+
+    .mainsection .inner .writesection{
+        clear: both;
+        width: 100%;
+        height: 900px;
+        border: 1px solid rgb(212, 203, 221);
+        
+    }
+
+    .mainsection .inner .writesection .writechoice{
+        
+        margin-right: 20px;
+        margin-top: 10px;
+       
+    }
+    .mainsection .inner .writesection .writechoice select{
+        
+        width: 350px;
+        text-align-last: center;
+        
+    }
+    .mainsection .inner .writesection span{
+        margin-right: 10px;
+    }
+    .mainsection .inner .writesection div{
+        margin-bottom: 10px;
+        
+    }
+
+    .mainsection .inner .writesection .writetitle input{
+        width: 400px;
+    }
+
+    .mainsection .inner .writesection .writetextarea textarea{
+
+        width: 100%;
+        height: 500px;
+    }
+
+    .mainsection .inner .writesection .finishwriter{
+	
+        position: fixed;
+        top: 50%;
+        right: 8%;
+        vertical-align: middle;
+        
+    }
+    .mainsection .inner .writesection .finishwriter input{
+        padding: 5px;
+		background-color:rgb(241, 144, 209);
+		border:none;
+    }
+
+
+
+    /* .mainsection .inner .writesection .choice .writeopt{
+        text-align: center;
+        
+    } */
+
+
+
+/* free board datail */
+.mainsection .inner .fbdetailsection{
+	clear: both;
+    width: 100%;
+    height: 850px;
+    border: 1px solid rgb(212, 203, 221);
+}
+.mainsection .inner .fbdetailsection .fbdetail1{
+	float:left;
+	width:75%;
+	height: 750px;
+	border: 1px solid rgb(212, 203, 221);
+}
+.mainsection .inner .fbdetailsection .fbdetail2{
+	float:left;
+	width:296px;
+	height: 750px;
+	border: 1px solid rgb(212, 203, 221);
+	text-align:center;
+	
+}
+.mainsection .inner .fbdetailsection .fbdetail2 .dd{
+	border-bottom: 1px solid rgb(212, 203, 221);
+	height:50px;
+	line-height:50px;
+	}
+	.mainsection .inner .fbdetailsection .fbdetail2 .dd .fbdd1{
+	float:left;
+	width:50%;
+	}
+	.mainsection .inner .fbdetailsection .eotrmf{
+	clear:both;
+	width:75%;
+	height:100px;
+	}
+	
+	.mainsection .inner .fbdetailsection .fbdetail2 .ddnick{
+	
+	float:left;
+	width:50%;
+	padding:5px 0;
+	
+	}
+	.mainsection .inner .fbdetailsection .fbdetail2 .ddreg{
+	float:right;
+	width:50%;
+	padding:5px 0;
+	}
+	.mainsection .inner .fbdetailsection .fbdetail2 .ddcomm{
+	clear:both;
+	width:100%;
+	padding:5px 0;
+	border-bottom:1px solid rgb(212, 203, 221);
+	
+	}
+	.mainsection .inner .fbdetailsection .fbdetail2 .ddcommred{
+	clear:both;
+	width:100%;
+	padding:5px 0;
+	border-bottom:1px solid rgb(212, 203, 221);
+	
+	}
+	.likes{
+	
+	position: fixed;
+	top: 50%;
+	right: 8%;
+	vertical-align: middle;
+	background-color:rgb(241, 144, 209);
+	border:none;
+	padding:5px;
+}
+
+.mainsection .inner .fbdetailsection .eotrmf .tbox{
+	float:left;
+	width:75%;
+	height:100px;
+	}
+	
+.mainsection .inner .fbdetailsection .eotrmf .tbox .tboxinput{
+	width:99%;
+	height:96%;
+	}
+.mainsection .inner .fbdetailsection .eotrmf .submit{
+	float:left;
+	width:25%;
+	height:100px;
+	}
+	.mainsection .inner .fbdetailsection .eotrmf .submit input{
+	float:left;
+	width:99%;
+	height:100%;
+	
+	}
+	.mainsection .inner .fbdetailsection .eotrmf .botcolor input{
+	float:left;
+	}
+	.mainsection .inner .fbdetailsection .eotrmf .botcolor .red{
+	float:left;
+	width:10px;
+	height:10px;
+	background-color:red;
+	
+	}
+/* footer start */
+
+footer .inner .footdiv{
+	
+    width: 100%;
+    height: 130px;
+    border: 1px solid rgb(212, 203, 221);
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 130px;
+}
+
+
